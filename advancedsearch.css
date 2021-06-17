@@ -1,0 +1,33 @@
+.container{
+    margin: 0 40px;
+}
+body{
+    font-size: 200px;
+    color: black;
+}
+h3{
+    color: red;
+    font-weight: 200;
+}
+h5{
+    font-weight: 200;
+}
+.input{
+    width: 90%;
+}
+.grid{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 200px 700px;
+}
+.grid-item-main-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+label{
+    font-size: 16px;
+}
+button[type="submit"]{
+    margin-left:1000px;
+    margin-right: 2px;
+}
